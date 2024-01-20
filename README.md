@@ -1,4 +1,4 @@
-### I have created Executable jar of above application download the jar run it on local machine and you are free to access the application
+## I have created Executable jar of above application download the jar run it on local machine and you are free to access the application
 Steps to Deploy application locally
 
 1. Click on below link (it will redirect you to google drive when i have uploaded my application jar file)
@@ -16,7 +16,7 @@ Application will start and you will see console logs on command prompt :)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-#### ALL API Endpoints
+### ALL API Endpoints
 
 Register API URL --> http://localhost:8081/home/register
 Login API URL --> http://localhost:8081/home/authenticate
@@ -30,7 +30,7 @@ Extra API URL --> http://localhost:8081/home/adminhello
 Steps to access/Test application
 USE POSTMAN to test API's
 
-1.Register
+### 1.Register
 
 method - POST
 endpoint - http://localhost:8081/home/register
@@ -50,7 +50,7 @@ expected output -
 }
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-2. Greeting Endpoint
+### 2. Greeting Endpoint
    
 mnethod - GET
 endpoint - http://localhost:8081/home/hello
@@ -61,7 +61,7 @@ NOTE : Copy token generated in register endpoint and paste on place on {JWT Toke
 expected output -Hello from GreenStitch
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-3.Login
+### 3.Login
 
 method - POST
 endpoint - http://localhost:8081/home/authenticate
@@ -78,7 +78,7 @@ expected output -
 }
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-4. Autrhorization Endpoint
+### 4. Autrhorization Endpoint
    
 mnethod - GET
 endpoint - http://localhost:8081/home/adminhello
@@ -90,7 +90,7 @@ expected output - Role Based Authorization Example :)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Changes Done -->
+## Changes Done -->
 1. Used MySQL inbstead of H2 as H2 is not production ready database hence used MySQL I have created AWS RDS instance for this to showcase my AWS knowledge
 2. I have created Role based Authentication so admin hello is not accessible for normal user (I have kept this role feild nullable & by default user )
 3. Username & Email has to be Unique for every user while registering 
