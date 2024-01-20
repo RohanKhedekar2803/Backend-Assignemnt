@@ -1,4 +1,4 @@
-I have created Ececutable jar of above application download the jar run it on local machine and you are free to access the application
+I have created Executable jar of above application download the jar run it on local machine and you are free to access the application
 Steps to Deploy application locally
 
 1. Click on below link (it will redirect you to google drive when i have uploaded my application jar file)
