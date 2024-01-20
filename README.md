@@ -1,5 +1,5 @@
 ## I have created Executable jar of above application download the jar run it on local machine and you are free to access the application
-<br>
+
 ### Steps to Deploy application locally
 
 <br>
