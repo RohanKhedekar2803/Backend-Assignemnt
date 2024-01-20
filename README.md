@@ -1,29 +1,30 @@
 ## I have created Executable jar of above application download the jar run it on local machine and you are free to access the application
 Steps to Deploy application locally
+<br>
 
 1. Click on below link (it will redirect you to google drive when i have uploaded my application jar file)
    https://drive.google.com/file/d/1yTihmdcLfmay4NtLAOn6-xeHmaoO6G3p/view
-
+<br>
 2. Click on download button (PLEASE WAIT FOR 1 MINUTE it can take upto a minute depending on internert speed)
-
+<br>
 3. Click on download anyway (PLEASE WAIT FOR 2 MINUTES it can take upto a 2 minutes depending on internert speed)
-
+<br>
 4. open command prompt in downloads folder or whereever you have downloaded jar file
    Execute this command --> java -jar RohanKhedekarAssignment.jar
-
+<br>
 Application will start and you will see console logs on command prompt :)
-
+<br>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ### ALL API Endpoints
 
-Register API URL --> http://localhost:8081/home/register
-Login API URL --> http://localhost:8081/home/authenticate
-Greets API URL --> http://localhost:8081/home/hello
+Register API URL --> http://localhost:8081/home/register <br>
+Login API URL --> http://localhost:8081/home/authenticate <br>
+Greets API URL --> http://localhost:8081/home/hello <br>
 
-Extra API for Role Based Authentication 
-Extra API URL --> http://localhost:8081/home/adminhello
+Extra API for Role Based Authentication   <br>
+Extra API URL --> http://localhost:8081/home/adminhello <br>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
